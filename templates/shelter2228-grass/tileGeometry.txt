@@ -1,0 +1,16 @@
+tileGeometry
+{
+    VERSION = 2,
+    tileset
+    {
+        name = e_newgrass_1,
+        tile
+        {
+            xy = 7x10,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+    }
+}

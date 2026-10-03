@@ -87,8 +87,18 @@
     },
     {
       "path": "Shelter2228B42Local/42/mod.info",
-      "sha256": "5f0449f6cab74d39094a57945f0e900eb7e75e7b2a04c3a1f6d5b6d3d26cbc81",
-      "size": 198
+      "sha256": "73ca1919583b9de9b3f585fe1a06241924749a9a6200948e203ac459e7cc58bd",
+      "size": 231
+    },
+    {
+      "path": "Shelter2228B42Local/common/media/texturepacks/shelter2228-legacy-grass2x.pack",
+      "sha256": "7c4e0958106ea32da16cc20cfae84bf0b0ab135a96e1db3e7470234f68523141",
+      "size": 3530
+    },
+    {
+      "path": "Shelter2228B42Local/common/media/tileGeometry.txt",
+      "sha256": "7656c9f86be5d9069175a466bd43eb2b04aa0d48a8ec3f1230c936eaca12a48f",
+      "size": 246
     },
     {
       "path": "SheltersTilesB42Local/42/media/shelters-tileset.tiles",
@@ -106,7 +116,7 @@
       "size": 217
     }
   ],
-  "fingerprint": "2ce2d0e6b40b564745e7d902f36fb051eafde234c91acc9c25e5d5f8f0c6be0c",
+  "fingerprint": "5cb745c13bb40ab11796f34fb90333156327b2440f40e9299e9a8a69ca5f84c9",
   "metadata": {
     "converter_version": "0.1.0",
     "game_version": "42.21",

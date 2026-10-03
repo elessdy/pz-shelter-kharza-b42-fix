@@ -1,4 +1,4 @@
-"""Apply original rendering metadata accepted in the Shelter 22 38 v003 playtest.
+"""Apply scoped, original rendering metadata for the two shelter presets.
 
 Only sprite names and properties are included. Game depth images and the mod
 authors' artwork remain separate, locally supplied dependencies.
@@ -12,6 +12,21 @@ ACCEPTED_SHA256 = {
     "tileGeometry.txt": "6fc8f10555a53a73280da20111d1bfca42314b5cd127881171638df3260e1079",
     "tileDepthTextureAssignments.txt": "ae206107cdecdec02c7680db21664c3776308f23d558b70f511d4fb7422f228a",
 }
+
+
+def apply_2228_grass_metadata(mods_root):
+    """Mark restored legacy grass translucent without borrowing depth/behavior."""
+    template = TEMPLATES.parent / "shelter2228-grass/tileGeometry.txt"
+    relative = Path("Shelter2228B42Local/common/media/tileGeometry.txt")
+    payload = template.read_text(encoding="utf-8").replace("\n", "\r\n").encode("utf-8")
+    target = Path(mods_root) / relative
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with target.open("xb") as stream:
+        stream.write(payload)
+    return {"profile": "shelter2228-grass", "sprite": "e_newgrass_1_87",
+            "property": "Translucent=true", "depth_alias": None,
+            "metadata_sha256": {relative.as_posix(): hashlib.sha256(payload).hexdigest()},
+            "reference_visuals_accepted_by_user": False, "this_build_launched": False}
 
 
 def apply_shelter_visual_fixes(mods_root):

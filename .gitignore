@@ -22,6 +22,7 @@
 !/src/ValidateShelterMetadata.py
 !/src/ShelterCell.java
 !/src/ShelterParking.lua
+!/src/RestoreLegacyGrass.java
 
 /tests/*
 !/tests/test_package_manifest.py
@@ -31,6 +32,9 @@
 /templates/shelter2238-v003/*
 !/templates/shelter2238-v003/tileGeometry.txt
 !/templates/shelter2238-v003/tileDepthTextureAssignments.txt
+!/templates/shelter2228-grass/
+/templates/shelter2228-grass/*
+!/templates/shelter2228-grass/tileGeometry.txt
 
 /.github/*
 !/.github/workflows/

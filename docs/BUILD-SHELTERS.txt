@@ -29,8 +29,9 @@ media; it is read-only input. --output-root must resolve inside this checkout's
 private directory. The JAR SHA-256 guard remains mandatory:
   e1a69eb743ede60b213a0fe7f8b83d4fcab773036d256cc4543a336f3b058a33
 
-Only the five converter/validator Java sources named in build_prototype.py are
-compiled into each new output's classes directory. Unrelated diagnostic helpers
+Only the converter/validator Java sources named in build_prototype.py are
+compiled into each new output's classes directory: five for 22-38, plus
+RestoreLegacyGrass.java for 22-28. Unrelated diagnostic helpers
 are excluded. No previous compiled classes are required. Injected Java options
 are removed from the compiler and converter process environment.
 
@@ -46,6 +47,11 @@ Source cell 22,28; spawn 6641,8416,0; output mod/map ID Shelter2228B42Local.
 Requires local SHELTERS Tileset (3221270060). No Melos copy/dependency, parking
 hook, or Shelter 22 38 rendering overrides are added. Conversion validation does
 not establish visual or gameplay correctness for this separate shelter.
+The 22-28 preset also reads local media/texturepacks/Tiles1x.pack to restore the
+missing e_newgrass_1_87 artwork into a one-sprite private 2x texture pack. The
+generated pack preserves its name and doubles pixels, offsets and canvas size;
+the accompanying metadata sets only Translucent=true. This is a visual candidate,
+not an accepted result. It does not rewrite map objects or saved worlds.
 
 ACCEPTED SHELTER 22 38 RENDERING METADATA
 
@@ -101,19 +107,32 @@ Subsequent explicit-preset regression results are recorded in their private
 reference-comparison.json files rather than inferred from the earlier success.
 
 Final local source-preset validation on 2026-10-02:
-  prototype-v009 / 22-38: all 183 payload files exactly match accepted v003;
+  prototype-v011 / 22-38: all 183 payload files exactly match accepted v003;
   verification against docs/reference/shelter-22-38-b42.21.json returned READY.
   Package fingerprint:
   fca05c7449b64e9d1f400364f3f441864c783c7449f578d72e1fb15d524b1e94
 
-  prototype-v008 / 22-28: 21 payload files, two mods, 12 required directories.
+  prototype-v010 / 22-28: 23 payload files, two mods, 12 required directories.
   Package fingerprint:
-  2ce2d0e6b40b564745e7d902f36fb051eafde234c91acc9c25e5d5f8f0c6be0c
+  5cb745c13bb40ab11796f34fb90333156327b2440f40e9299e9a8a69ca5f84c9
   3,932,160 original/vanilla square-layer comparisons and 262,144 ground-bit
   comparisons passed. Independent header audit checked 4,096 density chunks,
   eight combined source/vanilla rooms and 14 metaobjects. All six spawn entries
   migrated to 6641,8416,0. No Melos, parking hook, original objects.lua, or
   22-38 rendering override was packaged.
+  This candidate adds the missing-grass restoration after the first manual visit
+  exposed 35 instances of e_newgrass_1_87 without loaded artwork. The converter
+  pins the source PNG and crop pixel hashes, then rereads the generated PZPKv1
+  pack and verifies 6,032 exact replicated RGBA pixels plus 2,160 transparent
+  padding pixels. The original source pack remains unchanged. Candidate visual
+  validation is pending.
+  Compared with v008, 20 files are identical; only mod.info changed and the
+  restoration pack plus Translucent-only template were added. The stock geometry
+  parser accepted the VERSION2 template's one tileset/tile and sole property.
+
+The lattice roof slopes match the original author's poster and source artwork.
+All 274 roof-square coordinates and complete ordered tile stacks were independently
+confirmed unchanged. No slope replacement or map-object edit is part of v010.
 
 The 22-28 overlay contains more clipped geometry than 22-38. Its source-specific
 rounding cap is 84 square tiles; 22-38 retains its existing cap of 64. Both also

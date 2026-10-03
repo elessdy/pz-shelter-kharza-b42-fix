@@ -12,7 +12,7 @@ single-player reference. Multiplayer joining has not yet been validated.**
 | Shelter | Status |
 | --- | --- |
 | 22 38 | Conversion and server chunk loading validated; user accepted visuals, doors and stairs; existing character resumed successfully. Fresh rebuild reproduces all 183 accepted payload files. |
-| 22 28 | Converted; map, metadata and overlay validations passed. Separate manual playtest pending. |
+| 22 28 | Conversion checks passed. Initial manual visit exposed missing legacy grass artwork; a same-name texture-restoration candidate is built. Candidate visual validation and multiplayer remain pending. |
 | Other shelters | Not supported yet. |
 
 The tested game is **B42.21**, with this `projectzomboid.jar` SHA-256:
@@ -49,6 +49,8 @@ The default selection is `--shelter 22-38`. To build the next candidate, use
 `--shelter 22-28` with a new tag and the original
 [Shelter 22 28](https://steamcommunity.com/sharedfiles/filedetails/?id=3221271772)
 and SHELTERS TileSet subscriptions. That map does not require Melos.
+Its builder restores one legacy grass sprite from the locally installed
+`Tiles1x.pack` into a small private 2x pack and adds a `Translucent` property.
 See [Shelter 22 28 status](docs/NEXT-SHELTER.md) before playtesting it.
 
 Use a new tag for each build; the builder never overwrites an existing build.
@@ -60,7 +62,9 @@ mods, with file hashes and required empty-directory checks.
 The build converts the old 300-tile cell into intersecting B42 256-tile cells,
 restores unaffected vanilla edges, corrects density and room-object metadata,
 migrates the map overlay and spawn points, validates the result, and includes the
-accepted visual fixes. No game, server, or player profile is launched or changed.
+selected shelter's compatibility metadata. The 22 38 visual fixes are accepted;
+the 22 28 texture restoration is still a candidate. No game, server, or player
+profile is launched or changed by the builder.
 
 To compare a later build with a previous local accepted package, add
 `--reference-build private/<accepted-tag>`. This requires every payload file to

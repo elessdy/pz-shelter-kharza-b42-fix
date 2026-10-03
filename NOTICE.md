@@ -9,6 +9,12 @@ Obtain the game and each required Workshop item separately. Game JARs, texture
 packs, tilesets, map files, screenshots, saved worlds, downloaded tools, credentials,
 and generated converted mods are excluded from this repository.
 
+The Shelter 22 28 candidate's legacy-grass adapter reads one sprite from the
+user's installed `Tiles1x.pack` and generates a small private 2x texture pack.
+The adapter source and property declaration are included here; the extracted or
+rescaled artwork is not. Generated pixels remain Project Zomboid assets, and a
+hash-only candidate manifest does not distribute or license that artwork.
+
 ## Upstream work
 
 - **The Indie Stone — Project Zomboid.** The converter calls the locally installed

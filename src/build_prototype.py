@@ -4,7 +4,7 @@ Does not install, enable, publish, or launch anything. Supports only the pinned
 """
 from pathlib import Path
 import argparse, datetime, hashlib, json, os, re, shutil, subprocess, sys
-from shelter_visual_fixes import apply_shelter_visual_fixes
+from shelter_visual_fixes import apply_shelter_visual_fixes, apply_2228_grass_metadata
 from package_manifest import create_manifest, verify_manifest
 ROOT=Path(__file__).resolve().parents[1]
 PRESETS={
@@ -78,6 +78,7 @@ for key in ("_JAVA_OPTIONS","JAVA_TOOL_OPTIONS","JDK_JAVA_OPTIONS"): env.pop(key
 cp=os.pathsep.join((str(CLASSES),str(JAR)))
 # Build only the conversion dependencies, never unrelated unfinished diagnostics.
 java_sources=("ConvertShelterMap.java","ShelterCell.java","MergeShelterEdges.java","ValidateShelterMap.java","ConvertShelterAncillary.java")
+if args.shelter == "22-28": java_sources += ("RestoreLegacyGrass.java",)
 compilation=subprocess.run([str(JAVAC),"-cp",str(JAR),"-d",str(CLASSES)]+
  [str(ROOT/"src"/name) for name in java_sources],env=env,capture_output=True,text=True,encoding="utf-8",errors="replace")
 (OUT/"javac.log").write_text(compilation.stdout+compilation.stderr,encoding="utf-8")
@@ -122,11 +123,13 @@ copied(SOURCE/"thumb.png",mapdir/"thumb.png")
 lots=Muldraugh, KY
 description=Private compatibility playtest at original world location.
 """,encoding="utf-8",newline="\r\n")
+grass_pack="shelter2228-legacy-grass2x" if args.shelter == "22-28" else None
+pack_entry=("pack="+grass_pack+"\n") if grass_pack else ""
 (mapmod/"42/mod.info").write_text(f"""name={MAP_NAME} B42 Local Prototype
 id={MAP_ID}
 versionMin=42.21
 require={REQUIRES}
-description=Private local conversion. Visual and multiplayer playtesting required.
+{pack_entry}description=Private local conversion. Visual and multiplayer playtesting required.
 """,encoding="utf-8",newline="\r\n")
 if PRESET["melos"]:
     for branch in ("42","common"): shutil.copytree(MELOS/branch,mods/"MelosTiles"/branch)
@@ -139,6 +142,16 @@ for mod in mods.iterdir():
             directory.mkdir(parents=True,exist_ok=True)
             required_directories.append(directory.relative_to(mods).as_posix())
 visual_fixes=apply_shelter_visual_fixes(mods) if PRESET["visual_fixes"] else None
+if grass_pack:
+    original_pack=RUNTIME/"media/texturepacks/Tiles1x.pack"
+    restored_pack=mapmod/"common/media/texturepacks"/(grass_pack+".pack")
+    run("RestoreLegacyGrass",original_pack,restored_pack,OUT/"grass-restoration.json")
+    sources[str(original_pack)]={"size":original_pack.stat().st_size,"sha256":sha(original_pack)}
+    visual_fixes=apply_2228_grass_metadata(mods)
+    restoration=json.loads((OUT/"grass-restoration.json").read_text(encoding="utf-8"))
+    visual_fixes["texture_restoration"]={key:restoration[key] for key in (
+        "sprite","source_pack_sha256","source_png_sha256","source_crop_rgba_sha256",
+        "output_pack_sha256","output_rect_xywh_offsets_canvas","rgba_pixel_roundtrip_exact")}
 for name in ("objects.lua","spawnpoints.lua","worldmap.xml"):
     sources[str(SOURCE/name)]={"size":(SOURCE/name).stat().st_size,"sha256":sha(SOURCE/name)}
 manifest=file_manifest(mods)

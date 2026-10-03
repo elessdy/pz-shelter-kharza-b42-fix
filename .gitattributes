@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# These original compatibility templates/hook are copied byte-for-byte into builds.
+templates/shelter2238-v003/*.txt -text
+src/ShelterParking.lua -text

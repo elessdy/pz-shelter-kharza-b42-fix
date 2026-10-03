@@ -1,0 +1,10 @@
+tileDepthTextureAssignments
+{
+    VERSION = 1,
+    melos_tiles_roofs_08_4 = roofs_30_01_12,
+    melos_tiles_roofs_08_5 = roofs_30_01_13,
+    melos_tiles_roofs_08_8 = roofs_30_01_16,
+    melos_tiles_roofs_08_9 = roofs_30_01_17,
+    melos_tiles_roofs_08_99 = roofs_30_01_43,
+    melos_tiles_roofs_08a_70 = roofs_01_7,
+}

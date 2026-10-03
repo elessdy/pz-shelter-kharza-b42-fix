@@ -1,0 +1,135 @@
+PRIVATE BUILD ENTRY POINT
+
+Run src/build_prototype.py with Python 3.11 or newer and a JDK 25 installation.
+The default preset is Shelter 22 38. Shelter 22 28 is a separate explicit preset;
+other source cells, the SPD variants, and arbitrary maps are not supported.
+
+Examples (choose a fresh tag each time):
+  python -B src/build_prototype.py --tag prototype-v005 --shelter 22-38
+  python -B src/build_prototype.py --tag prototype-v006 --shelter 22-28
+
+The builder reads separately obtained local game/Workshop files. It does not
+download, install, enable or publish mods, start a game client/server, or edit saves.
+Existing output directories are refused and left intact. Conversion outputs,
+compiler files, logs and receipts remain under this checkout's private directory.
+They include third-party assets and are not repository source deliverables.
+
+LOCAL PATHS
+
+Each command-line option overrides its corresponding environment variable:
+  --runtime       PZ_SHELTERS_RUNTIME
+  --workshop-root PZ_SHELTERS_WORKSHOP_ROOT
+  --jdk-bin       PZ_SHELTERS_JDK_BIN
+  --output-root   PZ_SHELTERS_OUTPUT_ROOT
+
+Compatibility defaults are private/runtime, the default Windows Steam
+workshop/content/108600 path, tools/jdk-25.0.4.1+1/bin, and private respectively.
+--runtime may point to a local stock game directory with projectzomboid.jar and
+media; it is read-only input. --output-root must resolve inside this checkout's
+private directory. The JAR SHA-256 guard remains mandatory:
+  e1a69eb743ede60b213a0fe7f8b83d4fcab773036d256cc4543a336f3b058a33
+
+Only the five converter/validator Java sources named in build_prototype.py are
+compiled into each new output's classes directory. Unrelated diagnostic helpers
+are excluded. No previous compiled classes are required. Injected Java options
+are removed from the compiler and converter process environment.
+
+INPUT PRESETS
+
+22-38: Workshop 3259059290, mods/Shelter 22 38/media/maps/Shelter 22 38.
+Source cell 22,38; spawn 6687,11587,1; output mod/map ID Shelter2238B42Local.
+Requires local SHELTERS Tileset (3221270060) and Melos Tiles for Miles (2879745353).
+Packages the narrowly scoped parking hook and accepted rendering metadata below.
+
+22-28: Workshop 3221271772, mods/Shelter 22 28/media/maps/Shelter 22 28.
+Source cell 22,28; spawn 6641,8416,0; output mod/map ID Shelter2228B42Local.
+Requires local SHELTERS Tileset (3221270060). No Melos copy/dependency, parking
+hook, or Shelter 22 38 rendering overrides are added. Conversion validation does
+not establish visual or gameplay correctness for this separate shelter.
+
+ACCEPTED SHELTER 22 38 RENDERING METADATA
+
+templates/shelter2238-v003 contains two original metadata templates, with no
+artwork, tile definitions, depth images, map binaries or other copied game assets.
+src/shelter_visual_fixes.py applies exactly these entries:
+
+  melos_tiles_roofs_08_4  -> roofs_30_01_12
+  melos_tiles_roofs_08_5  -> roofs_30_01_13
+  melos_tiles_roofs_08_8  -> roofs_30_01_16
+  melos_tiles_roofs_08_9  -> roofs_30_01_17
+  melos_tiles_roofs_08_99 -> roofs_30_01_43
+  All five slope sprites: Translucent=true.
+  melos_tiles_roofs_08a_70 -> roofs_01_7, with OpaquePixelsOnly=true.
+  dl_reed_0 through dl_reed_16: Translucent=true; no depth aliases.
+
+Other eaves/endcaps remain unchanged. The templates are property/alias metadata;
+referenced artwork and stock depth data must still come from local dependencies.
+Their accepted CRLF output hashes are pinned by the helper:
+  tileGeometry.txt
+  6fc8f10555a53a73280da20111d1bfca42314b5cd127881171638df3260e1079
+  tileDepthTextureAssignments.txt
+  ae206107cdecdec02c7680db21664c3776308f23d558b70f511d4fb7422f228a
+
+The helper normalizes template checkout endings and emits accepted CRLF bytes.
+Generated mod.info/map.info files also specify CRLF explicitly. The builder
+creates common/media/maps even when empty: B42.21 MapGroups otherwise skips
+version-specific maps and shows a missing-map warning on resume.
+
+VALIDATION AND REFERENCE COMPARISON
+
+The original map conversion, vanilla edge merge, square/tile comparisons,
+independent binary metadata audit, overlay clipping and current-game binary
+parser checks remain in the main build. Read each build's logs and receipt.
+The builder also creates package-manifest.json beside the mods directory and
+verifies it immediately. The portable manifest fingerprints payload files, mod
+IDs, game/converter versions and declared required directories, including empty
+map-discovery scaffolding. It contains no machine-specific absolute paths.
+--converter-version sets the release label (default 0.1.0).
+build-receipt.json records the package fingerprint. To recheck a copied package:
+  python -B src/package_manifest.py verify path/to/mods --manifest path/to/package-manifest.json
+
+Optional --reference-build private/prototype-v003 verifies the old build against
+its recorded manifest, compares every output payload file and checks the old
+build again. Any added, missing or changed payload fails the build comparison.
+reference-comparison.json records the result. Timing, logs and receipts are not
+package payload and are intentionally excluded from the byte comparison.
+
+The first integrated metadata build, prototype-v004, reproduced all 183 payload
+files of accepted prototype-v003 byte for byte. This preserved the user-accepted
+visual result; the rebuild itself did not launch a graphical client or server.
+Subsequent explicit-preset regression results are recorded in their private
+reference-comparison.json files rather than inferred from the earlier success.
+
+Final local source-preset validation on 2026-10-02:
+  prototype-v009 / 22-38: all 183 payload files exactly match accepted v003;
+  verification against docs/reference/shelter-22-38-b42.21.json returned READY.
+  Package fingerprint:
+  fca05c7449b64e9d1f400364f3f441864c783c7449f578d72e1fb15d524b1e94
+
+  prototype-v008 / 22-28: 21 payload files, two mods, 12 required directories.
+  Package fingerprint:
+  2ce2d0e6b40b564745e7d902f36fb051eafde234c91acc9c25e5d5f8f0c6be0c
+  3,932,160 original/vanilla square-layer comparisons and 262,144 ground-bit
+  comparisons passed. Independent header audit checked 4,096 density chunks,
+  eight combined source/vanilla rooms and 14 metaobjects. All six spawn entries
+  migrated to 6641,8416,0. No Melos, parking hook, original objects.lua, or
+  22-38 rendering override was packaged.
+
+The 22-28 overlay contains more clipped geometry than 22-38. Its source-specific
+rounding cap is 84 square tiles; 22-38 retains its existing cap of 64. Both also
+require a conservative swept-edge quantization bound and exact rounded-XML vs
+decoded-binary equality of cells, features, rings/holes, vertices and properties.
+22-28 measured 83.33117171376944 square tiles against a conservative bound of
+83.45021932091169, with maximum vertex movement 0.5 tile. Buildings and roads
+have zero difference; forest/river clipping accounts for the difference.
+Its 304 features, 361 rings (57 holes), and 3,020 vertices round-trip exactly.
+22-38 retained its prior 35.70925851166248-square-tile difference and identical
+output payload. Full reports remain in each private build's ancillary directory.
+
+BOUNDARIES
+
+These are private compatibility prototypes. Original legacy objects.lua is kept
+only as a non-loadable audit reference; vanilla zoning/biomes remain the default.
+Biome equivalence, multiplayer behavior and long-running gameplay need separate
+validation. The user's Shelter 22 38 visual/traversal/resume observations do not
+establish correctness of Shelter 22 28 or untested sprites.

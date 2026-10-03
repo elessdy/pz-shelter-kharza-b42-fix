@@ -1,0 +1,133 @@
+{
+  "files": [
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/25_32.lotheader",
+      "sha256": "b4336542c47965cf095cb9a72e5df14029d1f91186e680c318575e93615d15b9",
+      "size": 10138
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/25_33.lotheader",
+      "sha256": "d469811f8197e674712857014be84952ab7146c3d046678e2df712413037fa70",
+      "size": 5561
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/26_32.lotheader",
+      "sha256": "c5f99bdda43a06cfb5030adc339ef8793bb87a97b3dfa48f4da82f2b0cdabe2e",
+      "size": 4739
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/26_33.lotheader",
+      "sha256": "a11be6b402830645c4ad315fdb0a2774bc3e33ad492396bada6a77442ea1826c",
+      "size": 5193
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/chunkdata_25_32.bin",
+      "sha256": "6e58cddb39d3b92a2d19d9203647853cfd25628aa91d9f8430e8504b0e7f10f4",
+      "size": 6274
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/chunkdata_25_33.bin",
+      "sha256": "aadf6bc92f82a9680cb53942ad6d5e36ca8ac9a33df30ce02084266245f46f9d",
+      "size": 2050
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/chunkdata_26_32.bin",
+      "sha256": "49b540c7fd90dee832e9792352e263a76b4cdcfdfdc83c90598227344c4611b2",
+      "size": 1282
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/chunkdata_26_33.bin",
+      "sha256": "5e2d8bd2247f04440aace59349c8d5af5f7ecf01f7f8325538714c0c357a8256",
+      "size": 1026
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/map.info",
+      "sha256": "8c89d1aa35a0f63ad331f9188c5a711a7f6f8fbd57501e961932c851983ea5cb",
+      "size": 133
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/spawnpoints.lua",
+      "sha256": "0abad417dfcf53934c6e84bb27fd2bb037e0e46317b558b4054c4c3c7eafc73e",
+      "size": 442
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/thumb.png",
+      "sha256": "26c711ff53473152a73cd88e348692703a79978b9dcae093f0eb4afc1ee603e9",
+      "size": 81204
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/world_25_32.lotpack",
+      "sha256": "d70da42503ba816f53d0a7cd72c2e25ef7325dcdf5a359f0335505d2e4427b14",
+      "size": 1052096
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/world_25_33.lotpack",
+      "sha256": "262f37d88bc4a737601718fca4dfc283bb171dc6214f676b8bc95dc83a9cd299",
+      "size": 1079924
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/world_26_32.lotpack",
+      "sha256": "0fc95ba488ba82d09b431f2367f7d1cb12f530079016a01f39cea305e488cbaa",
+      "size": 1037716
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/world_26_33.lotpack",
+      "sha256": "7ed57295eb52a1b2aa10ff43dfbd0c28e9ca32fc2c4c7162488bf1d4bcdfb893",
+      "size": 1026388
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/worldmap.xml",
+      "sha256": "b8002cbbaf4de93d6a679b75dc71f42ab6dbeeee1f72f686eda392945b274f18",
+      "size": 224577
+    },
+    {
+      "path": "Shelter2228B42Local/42/media/maps/Shelter2228B42Local/worldmap.xml.bin",
+      "sha256": "11a5bb00fac2bb441d5c8bf0dd328a0021f4a565b84f31e5bc0b1a36607e8e52",
+      "size": 15450
+    },
+    {
+      "path": "Shelter2228B42Local/42/mod.info",
+      "sha256": "5f0449f6cab74d39094a57945f0e900eb7e75e7b2a04c3a1f6d5b6d3d26cbc81",
+      "size": 198
+    },
+    {
+      "path": "SheltersTilesB42Local/42/media/shelters-tileset.tiles",
+      "sha256": "d6d32047c41d44b7abe91ead53bdb1c78fb15f648554d2cf00b7e0c763e1f069",
+      "size": 17624
+    },
+    {
+      "path": "SheltersTilesB42Local/42/media/texturepacks/shelters-tileset.pack",
+      "sha256": "15ab8a5127b166e9763800ab43aab8963468472d3fa04f85cae834bc9e2303ab",
+      "size": 3133846
+    },
+    {
+      "path": "SheltersTilesB42Local/42/mod.info",
+      "sha256": "42344ce8e8aa814df02503b74a49314ec03a0c901feec70ee3680b47cffd1dc1",
+      "size": 217
+    }
+  ],
+  "fingerprint": "2ce2d0e6b40b564745e7d902f36fb051eafde234c91acc9c25e5d5f8f0c6be0c",
+  "metadata": {
+    "converter_version": "0.1.0",
+    "game_version": "42.21",
+    "mod_ids": [
+      "Shelter2228B42Local",
+      "SheltersTilesB42Local"
+    ],
+    "required_directories": [
+      "Shelter2228B42Local/42/media/AnimSets",
+      "Shelter2228B42Local/42/media/actiongroups",
+      "Shelter2228B42Local/42/media/maps",
+      "Shelter2228B42Local/common/media/AnimSets",
+      "Shelter2228B42Local/common/media/actiongroups",
+      "Shelter2228B42Local/common/media/maps",
+      "SheltersTilesB42Local/42/media/AnimSets",
+      "SheltersTilesB42Local/42/media/actiongroups",
+      "SheltersTilesB42Local/42/media/maps",
+      "SheltersTilesB42Local/common/media/AnimSets",
+      "SheltersTilesB42Local/common/media/actiongroups",
+      "SheltersTilesB42Local/common/media/maps"
+    ]
+  },
+  "schema_version": 1
+}

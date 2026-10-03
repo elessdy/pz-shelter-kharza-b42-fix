@@ -1,0 +1,950 @@
+{
+  "files": [
+    {
+      "path": "MelosTiles/42/mod.info",
+      "sha256": "7a6b3ef2ce51f0b67ccaf287f83089e6af7424bbfe43a1ed41454c980bba4e98",
+      "size": 353
+    },
+    {
+      "path": "MelosTiles/42/poster.png",
+      "sha256": "fe2439b5e1056890ad77a665036d1ce12bc3ca5750a516e3459b30d37fe73cf7",
+      "size": 43085
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_appliances_01.png",
+      "sha256": "58a82ed15eb40a7511a6132456a9c51bb9a73f2f8d3f4cd02c0430a0c0513ea2",
+      "size": 89256
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_appliances_02.png",
+      "sha256": "485b4f8ed361124190383f06f1754a6fdfb9c534fea9e1ae8521471a78500b18",
+      "size": 49333
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_appliances_03.png",
+      "sha256": "9626d773d35e9e7d160d4d6559b689cfb0f694c7c85cdd86c4102ebf7d186128",
+      "size": 9411
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_appliances_security_01.png",
+      "sha256": "85565c922d66a914539f80dcd28fbdc9ba2a40ed0c0a982cff095f774717b5c9",
+      "size": 5859
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_castle_01.png",
+      "sha256": "5b5b713595c00a11caffb91ca2d726006e7d7fa7ac9341a10caa8c24df9f8e91",
+      "size": 79185
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_church_01.png",
+      "sha256": "2d2d91f14c11f769bf56d4cfa072fd954ad17da2b4976525cd90318c0d73e18a",
+      "size": 35675
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_construction_01.png",
+      "sha256": "71840c6a1518cd819321069dbd8c025580a9827c0f90545298023c38495d7d44",
+      "size": 43790
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_construction_02.png",
+      "sha256": "d7a1081c6ac1612b7f06fb0f80114db25f0b9e61e9c35912e74eb309ab30950d",
+      "size": 26993
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_curtains_01.png",
+      "sha256": "4aa9e242eed8a74978269f85bf438c112fe74772996c6959d06da3431f9d0b0a",
+      "size": 68465
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_curtains_02.png",
+      "sha256": "61e235c945ba51aa7f470c99d2b919eb79a87b4241fb445d9c36100c04208543",
+      "size": 39651
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_curtains_06.png",
+      "sha256": "cbfd19cb98b0972406b6f879914d3504813f058dba5eb451623a2e79ac72710f",
+      "size": 20405
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_curtains_random_01.png",
+      "sha256": "e30b5465753a0b7de5b987ee98a3fca68bebba875aa0f2c3c7838e91f9664e1f",
+      "size": 24470
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_01.png",
+      "sha256": "b3ef9cad9b6283750c5834530a2f6ac590dedb1bb9343df8d216ce7c44d11f93",
+      "size": 36157
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_01a.png",
+      "sha256": "adcc47972651ece4ccf005fcc9d7ee8d43b9d14dca924efaa94f9518668a16d1",
+      "size": 17162
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_01b.png",
+      "sha256": "3222532a0b72c80116ae4a9b5deda4be40ef262c1b101bed64e430ce19badc7e",
+      "size": 28649
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_02.png",
+      "sha256": "84027b266cdffea9ec021339f50f3008920271b5ea5714bc8a8255272f0a5360",
+      "size": 21753
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_02a.png",
+      "sha256": "c040d6d2ac97a9938f7110b942413fef69a080147c47f68cc4c0170aa1397145",
+      "size": 14247
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_02b.png",
+      "sha256": "63cb955a8760625ddbb5f823dee607981943cbcba9017058ef28fbebfd63dacb",
+      "size": 36108
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_03.png",
+      "sha256": "bdc2c80064f52702202948ce169f469dfab48f622dad4a61f13e957db1881497",
+      "size": 34738
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_04.png",
+      "sha256": "3cb7b28ffa60bef0cc6ef327d6e48944b077096c2dcb742a04e6f7ec1e813510",
+      "size": 25497
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_05.png",
+      "sha256": "c3b010b528943c03d3ce4a40860f71cbf6cf08a525b8eef5c706b6b597b36819",
+      "size": 10541
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_exterior_06.png",
+      "sha256": "a6ba6ede7e074f0378aa2ebffa9d47a3312019eca1b45818cfd9a1421a504329",
+      "size": 35288
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_interior_01.png",
+      "sha256": "f242550c4a85d7aac5083046aec802908df0a6a8f30e7e56eee3c97bff52d27c",
+      "size": 24910
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_interior_02.png",
+      "sha256": "1b7eb2169c1280d5b2733b2e8d59a049f5a386491738d3a01bf90683d1c608e7",
+      "size": 44325
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_interior_03.png",
+      "sha256": "aca44856514b73e89e0616312c4cd06c6e4753cd87751525740b84ee6b8dcc04",
+      "size": 56531
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_detailing_interior_04.png",
+      "sha256": "9f065c4c75d8c34a21c968d3030e5185af664c6bc364bc6f2b7b8466828316e5",
+      "size": 10140
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_doorframes_01.png",
+      "sha256": "ed8702c992ca165bb4ca4d0f790850e7210188d7bd7ee5e4e0920505ad2a4b04",
+      "size": 35684
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_doors_01.png",
+      "sha256": "09b25d39e24ad8b19a3f614bfbb640c99204e8d089d8e350d080ed32c248c718",
+      "size": 62268
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_doors_03.png",
+      "sha256": "95c411b894b84627c27b292e8c75694cbbe77dcae4b00eea62c9365f2b03ee5c",
+      "size": 49954
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_doors_04.png",
+      "sha256": "70324c82b6418ffa4d4469d0b3bac814b5e8afb89a49286fb60974ded91d2411",
+      "size": 37506
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_doors_05.png",
+      "sha256": "aded9a46e54ea82f6431b5bb84b329d367af9588f11cba479473bfa9dea4abf4",
+      "size": 64879
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_doors_05a.png",
+      "sha256": "308ab8a7a40a9dc0df5bf2dc45b936621660555333013ac0619302e5e67864fd",
+      "size": 36930
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fencing_01.png",
+      "sha256": "b41032dc85ee5016867dd43035c84e42f6e10343173c09aac363625f5ba5da73",
+      "size": 42893
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fencing_02.png",
+      "sha256": "6afb567f3acc08b3cb64c8c6de644094cf7cc3f85b596fcd82c30fd154e178f6",
+      "size": 142042
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fencing_03.png",
+      "sha256": "2652d263710512321ef76b355b9f6f6cc273d8827d6c9b6f3954b208e6c15d22",
+      "size": 18742
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fencing_04.png",
+      "sha256": "1e145c321711910c9d1908b7e91f5c5672991c85010171826884c261aaa0d2bf",
+      "size": 67622
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fencing_05.png",
+      "sha256": "defb5516fd69d53925462fe3c80f7325e4c06b2ed0f5441a0270f90aaebae38c",
+      "size": 17218
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fencing_06.png",
+      "sha256": "d47d70d64d6c9bd71baac18a5663543151d3b921bdf4a7a8c9739a5276b19ec8",
+      "size": 16300
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_fireplaces_chimneys_01.png",
+      "sha256": "b9acb425266ceefed28476eb5935cb93576350b63a32b8620bbc19ade28f227b",
+      "size": 74005
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_flags_stalker_01.png",
+      "sha256": "2f6b80dcaa4e85d272fdedc318a2eb80663e86c9e008cbe54803ed87ca91a371",
+      "size": 28854
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_floors_01.png",
+      "sha256": "1a4c3e2431fa26ded98f58bd52545da008bb23ed1a839ef2805fccbafd8e4a0d",
+      "size": 15946
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_floors_natural_01.png",
+      "sha256": "6acd75c2dc872bec1c67b4669801eadac296362cf56e2ea8df10eccfe269637e",
+      "size": 12047
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bathroom_01.png",
+      "sha256": "68d1b7948da5df5aa4bd5a7f73d6340950be7f217e63b995c6da3f8bde845181",
+      "size": 74584
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bedding_01.png",
+      "sha256": "453cb13b058122878a2298b7bf70dfbdb0d4c45354c926f5244b2e494ae3bcb5",
+      "size": 118916
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bedding_02.png",
+      "sha256": "49d3460429cf9e3a7410cfee6c3c85ce3695fa055bbca3c2dcf4e0e27ecc8232",
+      "size": 43276
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bedding_03.png",
+      "sha256": "fa548994175e00e5f92186ab2738cee039d08280d23379373d71317a93c862a5",
+      "size": 46467
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bedding_03a.png",
+      "sha256": "5b81d04cb04e5dae318a80f6dfdd1f895106a565ce49b6159a048b4bcd4aad8a",
+      "size": 48952
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bedding_03b.png",
+      "sha256": "1cd3488fd834559a4cfa91194b1511c403a968b895009c302fd94eefed4be6cb",
+      "size": 46869
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_bedding_04.png",
+      "sha256": "a980a6423a60d1aa59021fa0bae1aeb246788734903cb018fd0bae3859a3e6fe",
+      "size": 111742
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_buffet_01.png",
+      "sha256": "7dc44de5e9fba0663f944b4dbb263a4c6ed256405532dcee9758f6f92a6a995a",
+      "size": 34579
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_counters_01.png",
+      "sha256": "8f0d7839b9cd27c36d5f0fb9785093e69d96902153c050d551bd89f5d0767805",
+      "size": 34810
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_counters_03.png",
+      "sha256": "0e01daa5c181f48a69ca268868a7285f313842064b5403f83e4088f46b1e9840",
+      "size": 35222
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_counters_04.png",
+      "sha256": "adbf9c44ac9412403afff50bb918eb4f83b1a86ac082d81873687081dbcf18ff",
+      "size": 20075
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_counters_05.png",
+      "sha256": "d79cb0627189c2bd35b5eda5ad8402adfe37afe39c0e650e168b44cee818cc3e",
+      "size": 11777
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_random_01.png",
+      "sha256": "90a19f1d30e968d6d6764c8ff8eb914a4451cd969c7c8d2227ba4e09ba6b195a",
+      "size": 184765
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_random_02.png",
+      "sha256": "fa3d0cfde4674299c01d623fe4c6baaa56ac3a60005b90dc4d21f69d0db8fec1",
+      "size": 62816
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_random_03.png",
+      "sha256": "9651c860d4b57e25527d6ce8918e14655927875c583b541e0973de00145beb05",
+      "size": 39335
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_random_shop_01.png",
+      "sha256": "9bd46b19abbc7b7a55aa214382e65e54ab1bcc5780a5866f2b8a9d2214ea0363",
+      "size": 55450
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_seating_01.png",
+      "sha256": "99c3ce156331b0f0696c580f877d3f3373742cb60e88d5b3bff6bce735788acd",
+      "size": 98968
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_seating_01a.png",
+      "sha256": "3326d8ee64b37e1a49adbe41bb2410fd128e58cb50ed0cb3ed87a8e896a16d39",
+      "size": 16332
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_seating_02.png",
+      "sha256": "271db1fc5509dd73622e34b5555a3d2f22d40c71ec70608f521764a71cf3897e",
+      "size": 113889
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_seating_02a.png",
+      "sha256": "998a76254ee5b0d475a1a0e35848b8ae500969986d5c3d90d77500363546aa45",
+      "size": 32102
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_seating_03.png",
+      "sha256": "c7fd76b09fd43de7575b014d143b6a8ea480a1b1a224c073659ed6ffb65ebfe3",
+      "size": 16845
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_seating_04.png",
+      "sha256": "d74fbb18a45f7fd97e5e9ac8a22dc9e86fe523a13377065d4488a57dd7164221",
+      "size": 27169
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_storage_01.png",
+      "sha256": "da0fd2a176ce441039c4dc40e08ba16c39d3a9456d5629cc233cd7a0ae9b558c",
+      "size": 23339
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_storage_02.png",
+      "sha256": "49fab3d37aa9c450163ccd6446a435a09d1df97db2f42b80b3953ae4abf415fe",
+      "size": 82082
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_storage_03.png",
+      "sha256": "af575e33542408ae29b116f09f6a25eb57deee27c15c240b4b26ab972a06d2fa",
+      "size": 14382
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_tables_01.png",
+      "sha256": "df6755ca68d9b5c3d83ad26a8a49d8d25c52c8f81be694ff87a0a6cd76872f36",
+      "size": 92376
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_tables_02.png",
+      "sha256": "8d9208bb88b77e50be0341303e7282f601f33539e117d421fae5404bfbf3e1f6",
+      "size": 65503
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_tables_03.png",
+      "sha256": "508a1abe12b4c412a94cf817f46af0820e8b1820059d28149c4d427ae333b5de",
+      "size": 41959
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_furniture_tables_low_01.png",
+      "sha256": "0235fcb0f595f9993c343b63a6cd7bdf1162ef350dc296c150e4f6c973e03afb",
+      "size": 61415
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_01.png",
+      "sha256": "2c6167f5e01f3f25f89b2513b62149b3fb6f9a71117682a0d22518cbd96ee21b",
+      "size": 126392
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_02.png",
+      "sha256": "ff3de6f9e1172361442591f4d2eb942c01eb855db33a92cf7ff9df6857d3b4c6",
+      "size": 142728
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_03.png",
+      "sha256": "ea179df502e265ff36de6aa47d7d5735bd22de79fe138e447bb9178838a73a0f",
+      "size": 23849
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_hedges_01.png",
+      "sha256": "d60af9a1f6cd09fa10972eb477544aebd0f3a1241c567458886eb6cf78e5fe62",
+      "size": 64447
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_plants_01.png",
+      "sha256": "171da2e839dc9ae2f47051344d455c812d64d58a87e1883e16b9d1cf3b4c854f",
+      "size": 59002
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_plants_02.png",
+      "sha256": "c63def3921f6578bd2344b81470d2f3ed697b29cd00989e4ab29eb833f9350e7",
+      "size": 144440
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_pots_02.png",
+      "sha256": "82da996f92acedcc9910dae49a790e34193ffcc3f84d3cd6939aded172aa8a80",
+      "size": 31003
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_gardencenter_vines_01.png",
+      "sha256": "84061368e17e3564a1742318a9a1779b8cf6287425a1c4d31e9f027b16abf1b6",
+      "size": 178908
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_grapevines_01.png",
+      "sha256": "b7cba3b1f37cbb4b9fbfc17a82eefe1cb177ff054734fc3025d1b0434d9f9909",
+      "size": 168031
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_junk_01.png",
+      "sha256": "b449f00d17f1806b4f732991e35216ed7f7a5564926d85506f33e4b43e0d603c",
+      "size": 128313
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_junk_01a.png",
+      "sha256": "e4070c281dff3e64febe55c99d06aceac928ec9c74402a3d417d490ef79a87b6",
+      "size": 75888
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_junk_01b.png",
+      "sha256": "ef2f7354973dadd6491d2fef3acda5c097b565c1bba4da46b96f22e3cc91f2ec",
+      "size": 85271
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_kitchen_props_01.png",
+      "sha256": "a412c11819f961bd16d2776bab4780d61da808f3072536d7fc2bb679034d1976",
+      "size": 59607
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overgrown_objects_01.png",
+      "sha256": "e1287b4497edc329bb44531353ae31d97da868886eb2092966ebe27e457bd6cb",
+      "size": 51753
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overgrown_ruins_01.png",
+      "sha256": "1307f3f35813fb125aa28156169266a18cc9a28679daa40eac576703cb0f134d",
+      "size": 15834
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overgrown_ruins_fossoil_01.png",
+      "sha256": "29bb4241531fa62c4c7921cc26c325c4e465dbd584cb1f70df8920e4fd11b777",
+      "size": 76879
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overgrown_ruins_gas2go_01.png",
+      "sha256": "853b36e2c2e844e8d910e2784efffd7d13be9576b157678888897bec87463351",
+      "size": 33176
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overgrown_vehicles_01.png",
+      "sha256": "e16b381d471b7785b43f18fb1e340ebe7e679a8c5fba5ae27f7113c3d794fa9a",
+      "size": 16745
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overgrown_vehicles_02.png",
+      "sha256": "8419b8676223fa7f8db0ac99bca2b70e8e3379670249aecec900f778b3b808b9",
+      "size": 12168
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_overlays_02.png",
+      "sha256": "8041104238fa34e304402011a0915cf1b58a269e90d908bf751ed3a58d8354df",
+      "size": 23470
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_railings_01.png",
+      "sha256": "380f743c327150335ff553ec7f04ca0280238a92a1c5c49091e09542803c2548",
+      "size": 62325
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_railings_03.png",
+      "sha256": "6e01dd23746afd9b90ceef705e862825f08da7bcff847032f5533e0a12546d5a",
+      "size": 28904
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_railings_04.png",
+      "sha256": "19c95be883901cdd22fb53b7a8ab707cf0fb5f75c4cb27f4649df4742922723c",
+      "size": 36682
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_01.png",
+      "sha256": "f240ac0be116913ea0d49ebf045f3b679e73ffbb4dd32a3dba3a223e3b60f5a3",
+      "size": 103592
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_01a.png",
+      "sha256": "4c40f72f932a27001d32c36a3794f6d6864cb1a43b8ea8b0f9f9177ad9c960c2",
+      "size": 15593
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_02.png",
+      "sha256": "0f641d22d1e3c145e3c8d4417340f46e7d61f6b61822083c5108b82ca351a980",
+      "size": 121633
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_02a.png",
+      "sha256": "162ee4a75a34a81b28c7d4e4ff9c837f7d12fcbe38e81f4ce2ebe5f53da60738",
+      "size": 18071
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_02b.png",
+      "sha256": "4ed4a1e7214b70475e6c9bc950e937b76f9a71807690e54b86acab24deea16b1",
+      "size": 19151
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_03.png",
+      "sha256": "37f2bd2e914a467860e1f871059289ee39f849b07e22cab77c3091a9175c3fcc",
+      "size": 71590
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_04.png",
+      "sha256": "4196200047b61e068d6a13882fcab876bf59a02de3c8d94f7cceb6af801c5cd2",
+      "size": 14310
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_05.png",
+      "sha256": "2051f8aeade21808d92f938b56c6ef0f37e5f0816496b423fb8a585b5de201ee",
+      "size": 73030
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_corpses_01.png",
+      "sha256": "d44ce2c756ec5f1c4277b718fc27a73801cf40c8ea24c7bd744130ab62d540d8",
+      "size": 17712
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_corpses_02.png",
+      "sha256": "ee62b6797a36cfc322eb47c3d6a9f2eee9d773e0f07c5b42d3cd51df54f2ce49",
+      "size": 19834
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_industry_01.png",
+      "sha256": "c1af6005993dd210ae585e47c92fb9e4b1fc64eee1bdb70f2baf95d1fda7551c",
+      "size": 65488
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_industry_02.png",
+      "sha256": "74c570256f2d94ede66f9585e551e8fe028d9fd381c5d7c38cd9724e8d41a267",
+      "size": 188189
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_industry_03.png",
+      "sha256": "fbb0abd988be4e1aed80dc6e3bf09e94f015aeee1611637a85683ccb392e3106",
+      "size": 190767
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_industry_04.png",
+      "sha256": "53baf8a7e28cf35ba6cd7271a1b5181e8b2c1674d696c9759b3105adba766136",
+      "size": 78753
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_lighting_01.png",
+      "sha256": "02ed6552d3e1f6c3bebde9a9c721fa61c026a6d6832b7304887e7a73560f1fef",
+      "size": 15127
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_playground_01.png",
+      "sha256": "1bd24070cb5ca0def64568a8fec8710ad4f0b2ea268c3f481c18466a9a03f124",
+      "size": 43720
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_sports_01.png",
+      "sha256": "48d16cb520c9f804b61bb7c3fd10c79c2346cc93b7731d620ddbde6e54dc4dd8",
+      "size": 21622
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_stalker_01.png",
+      "sha256": "ff576d213d7aa9158cbb95eae1e259e2fd871b6d0276ee37e9bb2951273c567e",
+      "size": 34343
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_statues_01.png",
+      "sha256": "b28e394267cbef4e2c27e00b8788134be3639b9429ce4f8565d0822186d3469b",
+      "size": 13012
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_random_props_trash_container_01.png",
+      "sha256": "89bb05919b850a9dc08ed670904f4b6f01d88f18c330dfe3f5a674962bd63875",
+      "size": 17921
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_rugs_01.png",
+      "sha256": "a51239fce08878b91b0bf8c22ad3df02fa0e4694cf8b2ef59ac643df241bc92b",
+      "size": 58767
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_shop_signs_03.png",
+      "sha256": "65dc7684a3cb5de440556a4db32d46ec70df7629cd18d9a2f32433a5618e6d9f",
+      "size": 29276
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_shop_signs_04.png",
+      "sha256": "9f07aa725c21d7054d703ffd2c6511be5d68f64d731c12412a42e24cd194fdf4",
+      "size": 36690
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_shop_signs_05.png",
+      "sha256": "9611ca6fad1a8073b0d8308637d38ed2984b3960f6dafcb21c412ce3f1689e4b",
+      "size": 39259
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_stairs_01.png",
+      "sha256": "3ed81342aa66d1b1a799fc2bd16581d72aac007108de4d6269f07bc035e5dd29",
+      "size": 81435
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_stairs_01a.png",
+      "sha256": "c04cf2b289f3ae312dd3b715e5c8177236d286906f309c07e509136a81c5cee3",
+      "size": 22259
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_stairs_02.png",
+      "sha256": "c64338326774ba5321e40cf6900383a6f0fc686e0320f6a48223a117daccfc01",
+      "size": 34336
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_stairs_04.png",
+      "sha256": "bbc2b906b5fe5ff02873a373c89f4a7b8dd630c30fbda94ec54008f4bccc4dd6",
+      "size": 10643
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_trims_en_newburbs_add_01_brown_dark.png",
+      "sha256": "c1078cd08396955b674992fdaa6f7f8248bb7923c9fd0f681563b1976eff918f",
+      "size": 42445
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_wall_deco_04.png",
+      "sha256": "a6d06f4c2ef3dcb9c0debd3d91c9f406710d07dd902f707aa6c886eaae30682b",
+      "size": 12976
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_basement_windows_01.png",
+      "sha256": "82b5b6eaa27d25e21d89340e001a3d82a81111a5e4ccbfac6a5829c4326fe99c",
+      "size": 11389
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_bathroom_01.png",
+      "sha256": "d1efc70994cabd3d0b3723ea498b42e60f3b82a49bbc6f5d4c49bea1fd4a3e73",
+      "size": 27622
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_brick_natural_01.png",
+      "sha256": "e9c5490d843839bcf721b18b2b4888672a6902fc6576b7a7cb6b8d95c412173e",
+      "size": 17016
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_commercial_01.png",
+      "sha256": "60c25996cc52ad6dfe4380a3487c98b315926ac4d50781dadd0dcf6c084e1e1e",
+      "size": 25310
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_concrete_01.png",
+      "sha256": "a01e64159ba9d9d1e41ba1a27b9274d74e5f6ac1dd67e908cab686e3ed64390a",
+      "size": 29919
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_01.png",
+      "sha256": "560dc295dc3715141b6eb68b79cb3463c8533d5186b37ac5390ded30ec09d17e",
+      "size": 20337
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_02.png",
+      "sha256": "f095d4bbbcfb7f7c07fe9268aec5fcc52804aca3e0a1d05108cd199abf1d72c6",
+      "size": 21609
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_03.png",
+      "sha256": "4f156c50cefe5e8662d5202baacf835dd97845d7727afe6f9ebe70ccfd0fef37",
+      "size": 53882
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_04.png",
+      "sha256": "512c8a48dbb8021f571709d12bc3a951c5c98f0ff1d14392abc21dd24f8d6fa8",
+      "size": 25516
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_05.png",
+      "sha256": "6bc17ed5cc8480ab5792ffe48f6538a4031aebff4a6809afe00d16a8e788a3ab",
+      "size": 35782
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_06.png",
+      "sha256": "a7c916524069e02ddf73a9475d161e2cbf838b141b80ec0c1881bc6831feb823",
+      "size": 7003
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_07.png",
+      "sha256": "98f91bc0742d8ba8849e158332ae10b755d56f9032ef23e5441209c7c768f133",
+      "size": 18934
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_08.png",
+      "sha256": "a14d8ba4a7f597cc8aba8c07b76346b44b935265b992407409a5d30bc68a9537",
+      "size": 102168
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_09.png",
+      "sha256": "6ea2594b81a09df8c19edab0c14bed55fbdc50d899dc84ce7b2c574f6b81f7b5",
+      "size": 32147
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_detailing_grand_hotel_01.png",
+      "sha256": "10f0a939a7ebc37fe6121a331f22112a58ca4803b36f5ac44177b8d5526b9fbc",
+      "size": 72153
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_double_doorframes_01.png",
+      "sha256": "a414cafb2381bcc9bb5a454d609cf10bdd3f29b079e10f384cf54e203793ba52",
+      "size": 19093
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_walls_en_newburbs_add_01.png",
+      "sha256": "e9f644f345f97351f9a3fcf66ee16e52e2418e643335b64006ec3bd33c95ea9d",
+      "size": 30321
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_windows_01.png",
+      "sha256": "985d27c30dafec1b2d00a242364c02085fe2389a2e15afc6bcd137a7278800d1",
+      "size": 67134
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_windows_special_01.png",
+      "sha256": "b6daa2edd3d16235de1d70b9746dd5ddfc5caaaacad0c60a385c2bef5d0ec933",
+      "size": 38186
+    },
+    {
+      "path": "MelosTiles/common/media/depthmaps/DEPTH_melos_tiles_windows_triple_large_dark_red_brick_01.png",
+      "sha256": "f6f136e687cd0920250e5b77873bd7044498932d0f5552bc63f1bdb4b7bfa451",
+      "size": 200264
+    },
+    {
+      "path": "MelosTiles/common/media/lua/server/items/ShortrestDistributions.lua",
+      "sha256": "25f5dc9c73c8844b59a7c9060f7bd5dbce48909072ae07532903c2b561ef3e99",
+      "size": 94026
+    },
+    {
+      "path": "MelosTiles/common/media/lua/server/items/worldfiller_melos_tiles.lua",
+      "sha256": "0e935396d53aad6e5d92a555584909e704e1ba9b477bdfeb37c867e55106804d",
+      "size": 61129
+    },
+    {
+      "path": "MelosTiles/common/media/lua/server/items/worldfiller_melos_tiles_other.lua",
+      "sha256": "5bddf599ec987ad7313a15cc09deca5ba8507f48e252654e72c7a7480176010c",
+      "size": 64463
+    },
+    {
+      "path": "MelosTiles/common/media/melos_tiles_for_miles_def1.tiles",
+      "sha256": "8bf58ee616db7c42daf2c41e1ad8e4de656abab564f96ed42b4f655a43780baf",
+      "size": 4952789
+    },
+    {
+      "path": "MelosTiles/common/media/melos_tiles_for_miles_def2.tiles",
+      "sha256": "ea6d844e10a76b6e17c815811d9825ef2aaca762cd91467383600a6fd887ccc4",
+      "size": 2592969
+    },
+    {
+      "path": "MelosTiles/common/media/seating.txt",
+      "sha256": "90317beca6ee705b3e296ba0ed01318927a9164eec3483ba7e01b341828b97a7",
+      "size": 70067
+    },
+    {
+      "path": "MelosTiles/common/media/spriteModels.txt",
+      "sha256": "1f18d294fcb3847a43ba7a48caba1720e089f1ae2622675ad2c9f7be34ae6649",
+      "size": 100416
+    },
+    {
+      "path": "MelosTiles/common/media/texturepacks/melos_tiles_for_miles1.pack",
+      "sha256": "b501b543c7626aa44605bad0d76537742ef2ee2ce1a3816458c2a48f80bdfe74",
+      "size": 465751635
+    },
+    {
+      "path": "MelosTiles/common/media/texturepacks/melos_tiles_for_miles2.pack",
+      "sha256": "568fcf2d260ab5c00037a5ce1d8b06274633df05b9c84f33e33154306ffcd2f4",
+      "size": 337323933
+    },
+    {
+      "path": "MelosTiles/common/media/tileDepthTextureAssignments.txt",
+      "sha256": "2f278ff6dedc29b1034847bd692ddcda47cb816f7f5f1e6a5dcebe1f33238b7a",
+      "size": 1434717
+    },
+    {
+      "path": "MelosTiles/common/media/tileGeometry.txt",
+      "sha256": "b8173e987aaff7e99eeeff18766bc636963580f71c56fe5e337ed0f75db1b7ce",
+      "size": 2235514
+    },
+    {
+      "path": "MelosTiles/common/mod.info",
+      "sha256": "7a6b3ef2ce51f0b67ccaf287f83089e6af7424bbfe43a1ed41454c980bba4e98",
+      "size": 353
+    },
+    {
+      "path": "MelosTiles/common/poster.png",
+      "sha256": "fe2439b5e1056890ad77a665036d1ce12bc3ca5750a516e3459b30d37fe73cf7",
+      "size": 43085
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/lua/server/ShelterParking.lua",
+      "sha256": "f3f9c658413b57ebf4d8721bb28ce62b8f1ede573059b2f656dc98a8358a9555",
+      "size": 1637
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/25_44.lotheader",
+      "sha256": "6730ed48c661102dc36b11413555469b6d096dc349fb02c57a7d0fd184ac8d6e",
+      "size": 4445
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/25_45.lotheader",
+      "sha256": "83fd1faf62c0e2e28a76b16386b431daceea0b8cef2e1d72e8aa2981260964d4",
+      "size": 4502
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/26_44.lotheader",
+      "sha256": "f19aaafe6657e294c2bfeb15211603f8cd639d1e79d7a187d2127e4e09ae0145",
+      "size": 4757
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/26_45.lotheader",
+      "sha256": "3c999708b7762b9cb6231c9eae670ff945c381f4f7bfb3cc4a539ada2dcc905a",
+      "size": 11168
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/chunkdata_25_44.bin",
+      "sha256": "64ebe1c7fb4eb1411f684ced7111ab7613651ebdba2598da6054a5bdafc6fff4",
+      "size": 1922
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/chunkdata_25_45.bin",
+      "sha256": "6fb848d34048b47c57cfccf455be518cb2dc25bdc722a55f32c83685eb60b4ab",
+      "size": 6274
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/chunkdata_26_44.bin",
+      "sha256": "e3a10947c0d5c6e85ef6c9946f2373ffc512b1872c61eb93a0982f548917c570",
+      "size": 9858
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/chunkdata_26_45.bin",
+      "sha256": "188bce7a4d8f1c1c7cebbe746953f2c1b5e9fa8c2b4979c6194522f0a026b40b",
+      "size": 19522
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/map.info",
+      "sha256": "0f0b64489b50d25e0770f3fbdcfcbf1d4dc5f65768a3bcf35508011807b997f3",
+      "size": 133
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/spawnpoints.lua",
+      "sha256": "bf28c88c16715bf05255d2b7c0931184bfb23db4294862a768a2f732ba92086e",
+      "size": 448
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/thumb.png",
+      "sha256": "6dda489a945b7b2b1cabd76f3b048e823c57b6e99f24a0956a4265db444e6254",
+      "size": 65475
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/world_25_44.lotpack",
+      "sha256": "20216387d345df51ca2ecc4670d660d50f57e5b0601b4aa79e03ba5346150a85",
+      "size": 995932
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/world_25_45.lotpack",
+      "sha256": "02695dc7d4bdd73abce475386c95f782228ab7e7d0fc62156debb540a97bc4bc",
+      "size": 976012
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/world_26_44.lotpack",
+      "sha256": "21efc7e15a4f502ba273459026b80ae3ab97399eeaaebe14eb8800973151ddfe",
+      "size": 1033644
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/world_26_45.lotpack",
+      "sha256": "62d586283036cbd69cadcdf7048bce190d3991766f47b9d6e61668a00545202c",
+      "size": 1060264
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/worldmap.xml",
+      "sha256": "e4881a93a270f800199e96014a1c5c85f3988f9961a35b1cab062359cca2a180",
+      "size": 42522
+    },
+    {
+      "path": "Shelter2238B42Local/42/media/maps/Shelter2238B42Local/worldmap.xml.bin",
+      "sha256": "c9698a9ebca726def1b99f978cc153a4f4c03e9619b1dc4371dfb6d54e630fe3",
+      "size": 3132
+    },
+    {
+      "path": "Shelter2238B42Local/42/mod.info",
+      "sha256": "9f5d168834aab99cf5e797f61c579fdfa709b69ff029935cc1a88a24c31e6fdc",
+      "size": 226
+    },
+    {
+      "path": "Shelter2238B42Local/common/media/tileDepthTextureAssignments.txt",
+      "sha256": "ae206107cdecdec02c7680db21664c3776308f23d558b70f511d4fb7422f228a",
+      "size": 328
+    },
+    {
+      "path": "Shelter2238B42Local/common/media/tileGeometry.txt",
+      "sha256": "6fc8f10555a53a73280da20111d1bfca42314b5cd127881171638df3260e1079",
+      "size": 3689
+    },
+    {
+      "path": "SheltersTilesB42Local/42/media/shelters-tileset.tiles",
+      "sha256": "d6d32047c41d44b7abe91ead53bdb1c78fb15f648554d2cf00b7e0c763e1f069",
+      "size": 17624
+    },
+    {
+      "path": "SheltersTilesB42Local/42/media/texturepacks/shelters-tileset.pack",
+      "sha256": "15ab8a5127b166e9763800ab43aab8963468472d3fa04f85cae834bc9e2303ab",
+      "size": 3133846
+    },
+    {
+      "path": "SheltersTilesB42Local/42/mod.info",
+      "sha256": "42344ce8e8aa814df02503b74a49314ec03a0c901feec70ee3680b47cffd1dc1",
+      "size": 217
+    }
+  ],
+  "fingerprint": "fca05c7449b64e9d1f400364f3f441864c783c7449f578d72e1fb15d524b1e94",
+  "metadata": {
+    "converter_version": "0.1.0",
+    "game_version": "42.21",
+    "mod_ids": [
+      "Shelter2238B42Local",
+      "SheltersTilesB42Local",
+      "melos_tiles_for_miles_pack"
+    ],
+    "required_directories": [
+      "MelosTiles/42/media/AnimSets",
+      "MelosTiles/42/media/actiongroups",
+      "MelosTiles/42/media/maps",
+      "MelosTiles/common/media/AnimSets",
+      "MelosTiles/common/media/actiongroups",
+      "MelosTiles/common/media/maps",
+      "Shelter2238B42Local/42/media/AnimSets",
+      "Shelter2238B42Local/42/media/actiongroups",
+      "Shelter2238B42Local/42/media/maps",
+      "Shelter2238B42Local/common/media/AnimSets",
+      "Shelter2238B42Local/common/media/actiongroups",
+      "Shelter2238B42Local/common/media/maps",
+      "SheltersTilesB42Local/42/media/AnimSets",
+      "SheltersTilesB42Local/42/media/actiongroups",
+      "SheltersTilesB42Local/42/media/maps",
+      "SheltersTilesB42Local/common/media/AnimSets",
+      "SheltersTilesB42Local/common/media/actiongroups",
+      "SheltersTilesB42Local/common/media/maps"
+    ]
+  },
+  "schema_version": 1
+}

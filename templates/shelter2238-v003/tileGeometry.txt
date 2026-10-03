@@ -1,0 +1,206 @@
+tileGeometry
+{
+    VERSION = 2,
+    tileset
+    {
+        name = melos_tiles_roofs_08,
+
+        tile
+        {
+            xy = 4x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        tile
+        {
+            xy = 5x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        tile
+        {
+            xy = 0x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        tile
+        {
+            xy = 1x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        tile
+        {
+            xy = 3x12,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+    }
+    tileset
+    {
+        name = melos_tiles_roofs_08a,
+        tile
+        {
+            xy = 6x8,
+            properties
+            {
+                OpaquePixelsOnly = true,
+            }
+        }
+    }
+
+    tileset
+    {
+        name = dl_reed,
+        tile
+        {
+            xy = 0x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 1x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 2x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 3x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 4x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 5x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 6x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 7x0,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 0x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 1x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 2x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 3x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 4x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 5x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 6x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 7x1,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+        tile
+        {
+            xy = 0x2,
+            properties
+            {
+                Translucent = true,
+            }
+        }
+    }
+}
